@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
+class Curve:
 
 
+<<<<<<< HEAD
 class EllipticCurve(object):
 
     def __init__(self, a1,a2,a3,a4,a5,a6):
@@ -38,4 +40,7 @@ Binary Edwards curves: d1*(x+y)+d2*(x2+y2)=(x+x2)*(y+y2)
 Hessian curves: x3+y3+1=3*d*x*y
 Short Weierstrass curves: y2+x*y=x3+a2*x2+a6
 """
+=======
+    def __init__(self, ):
+>>>>>>> WIP: UPDATED WITH CURVE PARAMS
 
