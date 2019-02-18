@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6d0ea7-d7ba-4263-938a-1ade244b0a24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/curve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edwards.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/edwards.py" afterDir="false" />
-    </list>
+    <list default="true" id="3c6d0ea7-d7ba-4263-938a-1ade244b0a24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edwards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="200">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -170,16 +165,15 @@
       <workItem from="1549614535204" duration="1229000" />
       <workItem from="1549943323710" duration="1453000" />
       <workItem from="1550128726731" duration="1327000" />
-      <workItem from="1550352343917" duration="2418000" />
+      <workItem from="1550352343917" duration="3158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14483000" />
+    <option name="totallyTimeSpent" value="15223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1263" y="2" width="1438" height="1054" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13629842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edwards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
