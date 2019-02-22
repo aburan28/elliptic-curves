@@ -179,7 +179,15 @@ a, b ∈ 𝔽p define y
 
 p = 2^256-2^224+2^192+2^96-1
 
-
+p256 = 2**256-2**224+2**192+2**96-1
+a = p-3
+#The base point G:
+xG =
+0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296
+yG =
+0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5
+the order of G, n =
+0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551
 p384 = 2^384 - 2^128 - 2^96 + 2^32 - 1
 p41417 = 2^414 - 17
 
@@ -258,4 +266,12 @@ class EllipticCurve:
     def __init__(self):
         self.params = namedtuple("{0} {1} {2} {3} {4} {5} {6}".format(p,a,b,Gx,Gy,n,h))
 
->>>>>>> WIP: UPDATED WITH CURVE PARAMS
+sm2 = [
+    # 2**256-2**225+2**224-2**96+2**64-1
+    p = 0xFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFF,
+    a = p-3,
+##The base point G:
+xG: 0x32C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7,
+yG = 0xBC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0,
+n = 0xFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFF7203DF6B21C6052B53BBF40939D54123
+]

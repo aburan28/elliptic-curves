@@ -3,15 +3,11 @@
 class Curve:
 
 
-<<<<<<< HEAD
 class EllipticCurve(object):
 
     def __init__(self, a1,a2,a3,a4,a5,a6):
 
-
-    class
-
-        y^2 + xy = x3 + 1 or y2 + xy = x3 + x2 + 1
+#        y^2 + xy = x3 + 1 or y2 + xy = x3 + x2 + 1
 
 
 
@@ -40,7 +36,17 @@ Binary Edwards curves: d1*(x+y)+d2*(x2+y2)=(x+x2)*(y+y2)
 Hessian curves: x3+y3+1=3*d*x*y
 Short Weierstrass curves: y2+x*y=x3+a2*x2+a6
 """
-=======
-    def __init__(self, ):
->>>>>>> WIP: UPDATED WITH CURVE PARAMS
+
+#SmallWeierstrassCurveFp
+y ** 2 == x ** 3 + a * x + b
+#KoblitzCurveFp
+y ** 2 == x ** 3 + b
+#TwistedEdwardsCurveFp
+a * x ** 2 + y ** 2 == 1 + d * x ** 2 * y ** 2
+#EdwardsCurveFp
+x ** 2 + y ** 2 == c * (1 + d * x ** 2 * y ** 2)
+#MontgomeryCurveFp
+
+
+y ** 2 == x ** 3 + a * x ** 2 + x
 
