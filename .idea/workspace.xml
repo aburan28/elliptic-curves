@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c6d0ea7-d7ba-4263-938a-1ade244b0a24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/elliptic-curves.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/elliptic-curves.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/curve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecdh.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecdh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecdsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecdsa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,10 +35,10 @@
       <file leaf-file-name="curve.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="320">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
-                <marker date="1550787047508" expanded="true" signature="35:38" ph="..." />
+                <marker date="1550809899532" expanded="true" signature="35:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -52,8 +47,8 @@
       <file leaf-file-name="ecdh.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ecdh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="305">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -99,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="params.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/params.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -128,9 +123,10 @@
         <option value="$PROJECT_DIR$/src/edwards.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/src/ecdsa.py" />
-        <option value="$PROJECT_DIR$/src/curve.py" />
         <option value="$PROJECT_DIR$/src/ecdh.py" />
         <option value="$PROJECT_DIR$/src/params.py" />
+        <option value="$PROJECT_DIR$/src/curve.py" />
+        <option value="$PROJECT_DIR$/src/utils.py" />
       </list>
     </option>
   </component>
@@ -144,10 +140,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1263" />
-    <option name="y" value="2" />
-    <option name="width" value="1438" />
-    <option name="height" value="1054" />
+    <option name="x" value="504" />
+    <option name="y" value="119" />
+    <option name="width" value="1250" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -219,7 +215,7 @@
     <option name="totallyTimeSpent" value="15223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="118" width="1250" height="778" extended-state="0" />
+    <frame x="504" y="119" width="1250" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -575,7 +571,7 @@
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <marker date="1550787047508" expanded="true" signature="35:38" ph="..." />
+            <marker date="1550809899532" expanded="true" signature="35:38" ph="..." />
           </folding>
         </state>
       </provider>
@@ -615,34 +611,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/curve.py">
+    <entry file="file://$PROJECT_DIR$/src/params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <marker date="1550787047508" expanded="true" signature="35:38" ph="..." />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="271" column="5" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ecdh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <marker date="1550809899532" expanded="true" signature="35:38" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="271" column="5" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+        <state relative-caret-position="305">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

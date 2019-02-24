@@ -46,7 +46,7 @@ a * x ** 2 + y ** 2 == 1 + d * x ** 2 * y ** 2
 #EdwardsCurveFp
 x ** 2 + y ** 2 == c * (1 + d * x ** 2 * y ** 2)
 #MontgomeryCurveFp
-
-
 y ** 2 == x ** 3 + a * x ** 2 + x
 
+#Twisted Hessian curves
+ax**3 + y**3 + 1 = dxy
